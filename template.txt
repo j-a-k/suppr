@@ -1,0 +1,17 @@
+This is a mustache template
+
+{{#unjust}}
+File: {{{path}}}
+Suppressions with no justfication:
+{{#suppressions}}
+ * {{rule}}
+{{/suppressions}}
+{{/unjust}}
+
+{{#just}}
+File: {{{path}}}
+Suppressions rule -> reason:
+{{#suppressions}}
+ * {{rule}} -> {{reason}}
+{{/suppressions}}
+{{/just}}

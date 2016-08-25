@@ -1,0 +1,160 @@
+This is a mustache template
+
+File: .\test\test-data\pmd\pmd-code-00a6dd0595127248e390089fc991699f49e8c182\pmd-test\src\main\java\net\sourceforge\pmd\testframework\RuleTst.java
+Suppressions with no justfication:
+ * unchecked
+File: .\test\test-data\pmd\pmd-code-00a6dd0595127248e390089fc991699f49e8c182\pmd-plsql\src\main\java\net\sourceforge\pmd\lang\plsql\symboltable\TypeSet.java
+Suppressions with no justfication:
+ * PMD.AvoidUsingShortType
+File: .\test\test-data\pmd\pmd-code-00a6dd0595127248e390089fc991699f49e8c182\pmd-javascript\src\main\java\net\sourceforge\pmd\lang\ecmascript\rule\EcmascriptRuleViolationFactory.java
+Suppressions with no justfication:
+ * rawtypes
+File: .\test\test-data\pmd\pmd-code-00a6dd0595127248e390089fc991699f49e8c182\pmd-java\src\test\java\net\sourceforge\pmd\typeresolution\ClassTypeResolverTest.java
+Suppressions with no justfication:
+ * unchecked
+ * unchecked
+ * unchecked
+ * unchecked
+ * unchecked
+ * unchecked
+ * unchecked
+ * unchecked
+ * unchecked
+File: .\test\test-data\pmd\pmd-code-00a6dd0595127248e390089fc991699f49e8c182\pmd-java\src\main\java\net\sourceforge\pmd\lang\java\symboltable\TypeSet.java
+Suppressions with no justfication:
+ * PMD.AvoidUsingShortType
+File: .\test\test-data\pmd\pmd-code-00a6dd0595127248e390089fc991699f49e8c182\pmd-java\src\main\java\net\sourceforge\pmd\lang\java\symboltable\JavaNameOccurrence.java
+Suppressions with no justfication:
+ * PMD.AvoidBranchingStatementAsLastInLoop
+File: .\test\test-data\pmd\pmd-code-00a6dd0595127248e390089fc991699f49e8c182\pmd-java\src\main\java\net\sourceforge\pmd\lang\java\rule\logging\GuardLogStatementRule.java
+Suppressions with no justfication:
+ * unchecked
+File: .\test\test-data\pmd\pmd-code-00a6dd0595127248e390089fc991699f49e8c182\pmd-java\src\main\java\net\sourceforge\pmd\lang\java\rule\design\SingularFieldRule.java
+Suppressions with no justfication:
+ * PMD.CompareObjectsWithEquals
+File: .\test\test-data\pmd\pmd-code-00a6dd0595127248e390089fc991699f49e8c182\pmd-core\src\test\java\net\sourceforge\pmd\RuleSetTest.java
+Suppressions with no justfication:
+ * PMD.UseAssertEqualsInsteadOfAssertTrue
+File: .\test\test-data\pmd\pmd-code-00a6dd0595127248e390089fc991699f49e8c182\pmd-core\src\test\java\net\sourceforge\pmd\RuleSetFactoryTest.java
+Suppressions with no justfication:
+ * unchecked
+ * unchecked
+File: .\test\test-data\pmd\pmd-code-00a6dd0595127248e390089fc991699f49e8c182\pmd-core\src\main\java\net\sourceforge\pmd\util\viewer\gui\EvaluationResultsPanel.java
+Suppressions with no justfication:
+ * PMD.UseArrayListInsteadOfVector
+File: .\test\test-data\pmd\pmd-code-00a6dd0595127248e390089fc991699f49e8c182\pmd-core\src\main\java\net\sourceforge\pmd\util\TypeMap.java
+Suppressions with no justfication:
+ * PMD.CompareObjectsWithEquals
+File: .\test\test-data\pmd\pmd-code-00a6dd0595127248e390089fc991699f49e8c182\pmd-core\src\main\java\net\sourceforge\pmd\util\StringUtil.java
+Suppressions with no justfication:
+ * PMD.CompareObjectsWithEquals
+File: .\test\test-data\pmd\pmd-code-00a6dd0595127248e390089fc991699f49e8c182\pmd-core\src\main\java\net\sourceforge\pmd\util\log\ScopedLogHandlersManager.java
+Suppressions with no justfication:
+ * PMD.LoggerIsNotStaticFinal
+File: .\test\test-data\pmd\pmd-code-00a6dd0595127248e390089fc991699f49e8c182\pmd-core\src\main\java\net\sourceforge\pmd\util\EmptyIterator.java
+Suppressions with no justfication:
+ * rawtypes
+ * unchecked
+File: .\test\test-data\pmd\pmd-code-00a6dd0595127248e390089fc991699f49e8c182\pmd-core\src\main\java\net\sourceforge\pmd\util\CollectionUtil.java
+Suppressions with no justfication:
+ * PMD.UnnecessaryFullyQualifiedName
+ * PMD.CompareObjectsWithEquals
+File: .\test\test-data\pmd\pmd-code-00a6dd0595127248e390089fc991699f49e8c182\pmd-core\src\main\java\net\sourceforge\pmd\util\ClassUtil.java
+Suppressions with no justfication:
+ * PMD.AvoidUsingShortType
+File: .\test\test-data\pmd\pmd-code-00a6dd0595127248e390089fc991699f49e8c182\pmd-core\src\main\java\net\sourceforge\pmd\RuleSetWriter.java
+Suppressions with no justfication:
+ * PMD.CompareObjectsWithEquals
+File: .\test\test-data\pmd\pmd-code-00a6dd0595127248e390089fc991699f49e8c182\pmd-core\src\main\java\net\sourceforge\pmd\RuleSetFactory.java
+Suppressions with no justfication:
+ * unchecked
+File: .\test\test-data\pmd\pmd-code-00a6dd0595127248e390089fc991699f49e8c182\pmd-core\src\main\java\net\sourceforge\pmd\renderers\RendererFactory.java
+Suppressions with no justfication:
+ * unchecked
+ * unchecked
+File: .\test\test-data\pmd\pmd-code-00a6dd0595127248e390089fc991699f49e8c182\pmd-core\src\main\java\net\sourceforge\pmd\renderers\CSVRenderer.java
+Suppressions with no justfication:
+ * unchecked
+File: .\test\test-data\pmd\pmd-code-00a6dd0595127248e390089fc991699f49e8c182\pmd-core\src\main\java\net\sourceforge\pmd\lang\symboltable\AbstractScope.java
+Suppressions with no justfication:
+ * unchecked
+ * unchecked
+File: .\test\test-data\pmd\pmd-code-00a6dd0595127248e390089fc991699f49e8c182\pmd-core\src\main\java\net\sourceforge\pmd\lang\rule\xpath\SaxonXPathRuleQuery.java
+Suppressions with no justfication:
+ * unchecked
+File: .\test\test-data\pmd\pmd-code-00a6dd0595127248e390089fc991699f49e8c182\pmd-core\src\main\java\net\sourceforge\pmd\lang\rule\xpath\JaxenXPathRuleQuery.java
+Suppressions with no justfication:
+ * unchecked
+ * unchecked
+File: .\test\test-data\pmd\pmd-code-00a6dd0595127248e390089fc991699f49e8c182\pmd-core\src\main\java\net\sourceforge\pmd\lang\rule\RuleReference.java
+Suppressions with no justfication:
+ * PMD.CompareObjectsWithEquals
+File: .\test\test-data\pmd\pmd-code-00a6dd0595127248e390089fc991699f49e8c182\pmd-core\src\main\java\net\sourceforge\pmd\lang\rule\properties\AbstractScalarProperty.java
+Suppressions with no justfication:
+ * unchecked
+File: .\test\test-data\pmd\pmd-code-00a6dd0595127248e390089fc991699f49e8c182\pmd-core\src\main\java\net\sourceforge\pmd\lang\rule\properties\AbstractProperty.java
+Suppressions with no justfication:
+ * PMD.CompareObjectsWithEquals
+File: .\test\test-data\pmd\pmd-code-00a6dd0595127248e390089fc991699f49e8c182\pmd-core\src\main\java\net\sourceforge\pmd\lang\rule\properties\AbstractEnumeratedProperty.java
+Suppressions with no justfication:
+ * unchecked
+File: .\test\test-data\pmd\pmd-code-00a6dd0595127248e390089fc991699f49e8c182\pmd-core\src\main\java\net\sourceforge\pmd\lang\dfa\report\ReportHTMLPrintVisitor.java
+Suppressions with no justfication:
+ * PMD.AvoidStringBufferField
+ * PMD.AvoidStringBufferField
+File: .\test\test-data\pmd\pmd-code-00a6dd0595127248e390089fc991699f49e8c182\pmd-core\src\main\java\net\sourceforge\pmd\lang\ast\xpath\saxon\ElementNode.java
+Suppressions with no justfication:
+ * PMD.MissingBreakInSwitch
+File: .\test\test-data\pmd\pmd-code-00a6dd0595127248e390089fc991699f49e8c182\pmd-core\src\main\java\net\sourceforge\pmd\dcd\graph\MethodNode.java
+Suppressions with no justfication:
+ * PMD.OverrideBothEqualsAndHashcode
+File: .\test\test-data\pmd\pmd-code-00a6dd0595127248e390089fc991699f49e8c182\pmd-core\src\main\java\net\sourceforge\pmd\dcd\graph\MemberNode.java
+Suppressions with no justfication:
+ * PMD.SuspiciousEqualsMethodName
+File: .\test\test-data\pmd\pmd-code-00a6dd0595127248e390089fc991699f49e8c182\pmd-core\src\main\java\net\sourceforge\pmd\dcd\graph\FieldNode.java
+Suppressions with no justfication:
+ * PMD.OverrideBothEqualsAndHashcode
+File: .\test\test-data\pmd\pmd-code-00a6dd0595127248e390089fc991699f49e8c182\pmd-core\src\main\java\net\sourceforge\pmd\dcd\graph\ConstructorNode.java
+Suppressions with no justfication:
+ * PMD.OverrideBothEqualsAndHashcode
+File: .\test\test-data\pmd\pmd-code-00a6dd0595127248e390089fc991699f49e8c182\pmd-core\src\main\java\net\sourceforge\pmd\cpd\MatchCollector.java
+Suppressions with no justfication:
+ * PMD.CompareObjectsWithEquals
+File: .\test\test-data\pmd\pmd-code-00a6dd0595127248e390089fc991699f49e8c182\pmd-core\src\main\java\net\sourceforge\pmd\cpd\MatchAlgorithm.java
+Suppressions with no justfication:
+ * PMD.JumbledIncrementer
+File: .\test\test-data\pmd\pmd-code-00a6dd0595127248e390089fc991699f49e8c182\pmd-core\src\main\java\net\sourceforge\pmd\AbstractPropertySource.java
+Suppressions with no justfication:
+ * unchecked
+File: .\test\test-data\foo.java
+Suppressions with no justfication:
+ * PMD.CommentRequired
+File: .\test\test-data\bar\qux.java
+Suppressions with no justfication:
+ * PMD.CommentRequired
+
+File: .\test\test-data\pmd\pmd-code-00a6dd0595127248e390089fc991699f49e8c182\pmd-javascript\src\main\java\net\sourceforge\pmd\lang\ecmascript\ast\EcmascriptTreeBuilder.java
+Suppressions rule -> reason:
+ * unchecked -> the register function makes sure only EcmascriptNode&lt;T&gt; can be added,
+File: .\test\test-data\pmd\pmd-code-00a6dd0595127248e390089fc991699f49e8c182\pmd-javascript\src\main\java\net\sourceforge\pmd\lang\ecmascript\ast\AbstractEcmascriptNode.java
+Suppressions rule -> reason:
+ * unchecked -> we know that the children here are all EcmascriptNodes
+File: .\test\test-data\pmd\pmd-code-00a6dd0595127248e390089fc991699f49e8c182\pmd-java\src\main\java\net\sourceforge\pmd\lang\java\rule\design\GenericClassCounterRule.java
+Suppressions rule -> reason:
+ * PMD -> When the rule is finished, this field will be used.
+File: .\test\test-data\pmd\pmd-code-00a6dd0595127248e390089fc991699f49e8c182\pmd-java\src\main\java\net\sourceforge\pmd\lang\java\ast\AbstractJavaAccessNode.java
+Suppressions rule -> reason:
+ * PMD.UselessParentheses -> TODO: fix the rule - around binary expressions the parentheses are needed...
+File: .\test\test-data\pmd\pmd-code-00a6dd0595127248e390089fc991699f49e8c182\pmd-core\src\main\java\net\sourceforge\pmd\RuleSetFactory.java
+Suppressions rule -> reason:
+ * unchecked -> private static void parsePropertyNode(Rule rule, Node propertyNode) {
+File: .\test\test-data\pmd\pmd-code-00a6dd0595127248e390089fc991699f49e8c182\pmd-core\src\main\java\net\sourceforge\pmd\lang\rule\RuleReference.java
+Suppressions rule -> reason:
+ * PMD.UnusedNullCheckInEquals -> TODO: fix UnusedNullCheckInEquals rule for Arrays
+File: .\test\test-data\foo.java
+Suppressions rule -> reason:
+ * PMD.CommentRequired -> This is a test case
+ * Foo -> BAR
+File: .\test\test-data\bar\qux.java
+Suppressions rule -> reason:
+ * PMD.CommentRequired -> This is a test case

@@ -1,0 +1,16 @@
+This is a mustache template
+
+File: .\foo.java
+Suppressions with no justfication:
+ * PMD.CommentRequired
+File: .\bar\qux.java
+Suppressions with no justfication:
+ * PMD.CommentRequired
+
+File: .\foo.java
+Suppressions rule -> reason:
+ * PMD.CommentRequired -> This is a test case
+ * Foo -> BAR
+File: .\bar\qux.java
+Suppressions rule -> reason:
+ * PMD.CommentRequired -> This is a test case

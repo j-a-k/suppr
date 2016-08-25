@@ -1,0 +1,70 @@
+name:                suppr
+version:             0.1.0.0
+synopsis:            Generate report of warning suppressions
+description:         Please see README.md
+homepage:            https://bitbucket.org/jk_/Suppr
+license:             BSD3
+license-file:        LICENSE
+author:              James Keogh
+maintainer:          jms.keogh@gmail.com
+-- copyright:           
+category:            Application
+build-type:          Simple
+-- extra-source-files:  
+cabal-version:       >=1.10
+
+library
+  hs-source-dirs:      src
+  exposed-modules:     JavaParser
+  build-depends:       base >= 4.6 && < 5
+                     , text
+                     , attoparsec
+                     , syb
+  default-language:    Haskell2010
+
+executable suppr
+  hs-source-dirs:      app
+  main-is:             Main.hs
+  ghc-options:         -O2 -threaded -rtsopts -with-rtsopts=-N
+  build-depends:       base
+                     , suppr
+                     , directory-tree
+                     , filepath
+                     , text
+                     , hastache
+                     , syb
+  default-language:    Haskell2010
+
+test-suite suppr-test
+  type:                exitcode-stdio-1.0
+  hs-source-dirs:      test
+  main-is:             Spec.hs
+  build-depends:       base
+                     , suppr
+                     , hspec
+                     , hspec-attoparsec
+                     , QuickCheck
+                     , attoparsec
+                     , text
+  ghc-options:         -threaded -rtsopts -with-rtsopts=-N
+  default-language:    Haskell2010
+
+benchmark suppr-bench
+  type:             exitcode-stdio-1.0
+  hs-source-dirs:   bench
+  main-is:          Bench.hs
+  build-depends:    base
+                  , deepseq
+                  , ghc-prim
+                  , time
+                  , criterion
+                  , attoparsec
+                  , text
+  ghc-options:      -O2
+                    -fmax-simplifier-iterations=10
+                    -fdicts-cheap
+                    -fspec-constr-count=6
+  
+source-repository head
+  type:     hg
+  location: https://bitbucket.org/jk_/Suppr
