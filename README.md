@@ -2,7 +2,7 @@
 
 ***
 
-[![Build status](https://ci.appveyor.com/api/projects/status/k0dnp9m8v9jipas4?svg=true)](https://ci.appveyor.com/project/jk_/suppr)
+[![Build Status](https://travis-ci.org/j-a-k/suppr.svg?branch=master)](https://travis-ci.org/j-a-k/suppr)
 
 
 Report warning suppressions, and any reason given.
