@@ -16,6 +16,7 @@ import Text.Hastache
 import Text.Hastache.Context
 import Data.Data
 import Data.Generics
+import Data.Functor.Identity
 
 main :: IO ()
 main = do
@@ -32,7 +33,7 @@ walkFiles :: FilePath -> FilePath -> FilePath -> IO ()
 walkFiles templatePath outputPath sourceDir = do
   tree <- readDirectoryWith TIO.readFile sourceDir
   testTemplate <- readFile templatePath
-  let context = F.foldr processFile (Tables [] []) $ filterDir isJavaDirTree $ zipPaths tree
+  let context = F.foldr processFile (Tables [] []) $ zipPaths $  filterAnchoredTree isJavaDirTree tree
   temp <- render testTemplate context
   TLIO.writeFile outputPath temp
 
@@ -63,3 +64,7 @@ isJavaDirTree :: DirTree a -> Bool
 isJavaDirTree (File path _) = takeExtension path == ".java"
 isJavaDirTree (Dir _ _) = True
 isJavaDirTree _ = False
+
+-- | Apply filter to dire tree preserving anchor
+filterAnchoredTree :: (DirTree a -> Bool) -> AnchoredDirTree a -> AnchoredDirTree a
+filterAnchoredTree f (b:/a)  = b :/  filterDir f a
