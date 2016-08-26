@@ -45,7 +45,7 @@ isSuppression _ = True
 
 -- |Return all the suppresssions in the text
 getSuppressions :: T.Text -> ([Line],[Line])
-getSuppressions content = case (parseOnly javaParser content) of
+getSuppressions content = case parseOnly javaParser content of
                            Right result -> partition (not.isJustified) $ filter isSuppression result
                            _ -> ([],[])
 

@@ -56,7 +56,7 @@ makeTables (unjust, just) = Tables unjust just
 -- | Add new table to list of tables i.e. add the lines for a single file
 addTable :: FilePath -> [Table] -> [Line] -> [Table]
 addTable source table [] = table
-addTable source table lines = (Table source lines):table
+addTable source table lines = Table source lines:table
 
 -- | Predicate to filter out parts of the DirTree we dont care about i.e. non java files
 isJavaDirTree :: DirTree a -> Bool
