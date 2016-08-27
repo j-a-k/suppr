@@ -1,7 +1,6 @@
 /out/
 .stack-work/
 .idea/
-*.hs~
 *.iml
 /test/test-data/pmd/
-*.hs~
+/test/test-data/pmd.7z

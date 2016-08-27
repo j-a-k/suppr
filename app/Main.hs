@@ -33,9 +33,10 @@ walkFiles :: FilePath -> FilePath -> FilePath -> IO ()
 walkFiles templatePath outputPath sourceDir = do
   tree <- readDirectoryWith TIO.readFile sourceDir
   testTemplate <- readFile templatePath
-  let context = F.foldr processFile (Tables [] []) $ zipPaths $  filterAnchoredTree isJavaDirTree tree
-  temp <- render testTemplate context
+  temp <- render testTemplate . getResults $ tree
   TLIO.writeFile outputPath temp
+  where
+    getResults = F.foldr processFile (Tables [] []) . zipPaths .  filterAnchoredTree isJavaDirTree
 
 -- | data structures that mainly exist to make rendering the template easy cos of deriving Data, Typeable
 data Tables = Tables {unjust :: [Table], just :: [Table]} deriving (Show, Data, Typeable)
